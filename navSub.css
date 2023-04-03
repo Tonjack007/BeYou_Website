@@ -1,0 +1,138 @@
+.navSub{
+  display: flex;
+  background: #FDF6F0;
+  min-height: 10vh;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.navLinks > ul {
+  display: flex;
+  width: 100%;
+  gap: 250px;
+}
+.navLinks > ul > li{
+  background-color: #fff;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border: 1px solid #000;
+}
+.navLinks > ul > li > a{
+  color: #000;
+  font-size: 1.5rem;
+}
+.navLinks > ul :hover{
+  border: #fff;
+}
+.navLinks > ul > li:hover{
+  border: #fff;
+  text-decoration: underline;
+}
+@media (max-width:480px) {
+  .mainLogo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 4;
+  }
+  .burgerNav{
+    display: flex;
+  }
+  .navLinks{
+    width: 100%;
+    display: none;
+    background: #000;
+    position: relative;
+    z-index: 4;
+  }
+  .mainNav{
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .navLinks ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navLinks li{
+    text-align: center;
+    padding: 0.5rem 1rem;
+  }
+  .navLinks .active{
+    display: flex;
+  }
+ 
+}
+@media (max-width:720px) {
+  .mainLogo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .burgerNav{
+    display: flex;
+  }
+  .navLinks{
+    width: 100%;
+    display: none;
+    background: #000;
+  }
+  .mainNav{
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .navLinks ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navLinks li{
+    text-align: center;
+    padding: 0.5rem 1rem;
+  }
+  .navLinks.active{
+    display: flex;
+    position: relative;
+    z-index: 4;
+  }
+ 
+}
+@media (max-width:720px) {
+  .about1{
+    display: flex;
+    flex-direction: column;
+  }
+  .about2{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
+}
+@media (min-width:721px) {
+  .imgA1{
+    width: 300px;
+    height:300px;
+
+  }
+  .imgA2{
+    width: 300px;
+    height:300px;
+
+  }
+  
+
+}
+
+
+
+
+
+
